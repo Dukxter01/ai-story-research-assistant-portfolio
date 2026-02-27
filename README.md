@@ -103,5 +103,3 @@ This usually happens when prompt templates contain unescaped `{}` braces.
 - Structured JSON prompting
 - Human-in-the-loop editing
 - `README.md` – this file
-## License
-Use however you want (add your own license text if you plan to publish).
