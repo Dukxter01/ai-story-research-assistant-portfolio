@@ -1,9 +1,25 @@
 # AI Story Research Assistant (Research → Outline → Draft)
 
-A Streamlit app that generates:
-1) **Research & Claims** (with confidence + suggested verification sources)  
-2) **3‑act Outline**  
-3) **Draft**  
+## App Preview
+
+### 1️⃣ Research & Claims
+The app first generates research-backed claims with confidence scores and suggested verification sources.
+
+![Research](assets/research.png)
+
+---
+
+### 2️⃣ 3-Act Outline
+After confirming the claims, the system generates a structured 3-act outline.
+
+![Outline](assets/outline.png)
+
+---
+
+### 3️⃣ Draft Generation
+Finally, the app generates a ~300 word article draft plus verification notes.
+
+![Draft](assets/draft.png)
 
 It’s designed to be *workflow‑oriented* (not a chatbot) and supports **human‑in‑the‑loop editing** of the claims JSON before generating the outline and draft.
 
@@ -36,7 +52,11 @@ pip install -r requirements.txt
 ```bash
 streamlit run app_fixed_v3.py
 ```
+## Run Locally
 
+```bash
+pip install -r requirements.txt
+streamlit run app.py
 ## Environment variables
 ### Windows (PowerShell)
 ```powershell
@@ -75,7 +95,13 @@ This usually happens when prompt templates contain unescaped `{}` braces.
 ## Project structure (minimal)
 - `app_fixed_v3.py` – Streamlit app
 - `requirements.txt` – dependencies
-- `README.md` – this file
 
+## Tech Stack
+- Python
+- Streamlit
+- Google Gemini API
+- Structured JSON prompting
+- Human-in-the-loop editing
+- `README.md` – this file
 ## License
 Use however you want (add your own license text if you plan to publish).
