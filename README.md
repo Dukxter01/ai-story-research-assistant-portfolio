@@ -1,3 +1,6 @@
+## Live Demo
+https://ai-story-research-assistant-portfolio-beknz2ixl6f4thgvhyvxmj.streamlit.app/
+
 # AI Story Research Assistant (Research → Outline → Draft)
 
 ## App Preview
