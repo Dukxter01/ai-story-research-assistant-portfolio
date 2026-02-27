@@ -1,0 +1,5 @@
+streamlit>=1.32
+requests>=2.31
+feedparser>=6.0
+openai>=1.0
+google-generativeai>=0.5
